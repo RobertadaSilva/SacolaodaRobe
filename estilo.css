@@ -1,0 +1,679 @@
+/* css reset */
+
+*{
+	border:0;
+	margin:0;
+	padding:0;
+	}
+
+main{
+                                width: 100%;
+                                height: auto;}
+
+body{                           background: linear-gradient(180deg, #F1F0EE, #000000);
+    width: 100%;}
+
+ header{                        height: 60px;}
+
+.navbar{                        height: auto;}
+
+.navbar img{
+                                position: relative;
+                                width:70%; 
+                                height:50px;
+                                margin-left: 20px;
+                                top: -10px;}
+
+.navbar p{
+                                position: relative;
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 34px;
+                                line-height: 96px;
+                                color: #FCC219;
+                                right: 15vh;
+                                top: 5px;}
+
+.navbar ul{
+                                list-style: none;
+                                display: flex;}
+
+.lista a{
+                                position: relative;
+                                font-family: 'Itim';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 22px;
+                                line-height: 38px;
+                                text-decoration: none;
+                                text-align: center;
+                                justify-content: center;
+                                padding-left: 100px;
+                                right: 15vh;
+                                top: -1px;
+                                color: #5CD133;}
+
+.logos{                         display: flex;}
+
+.logos img{
+                                position: relative;
+                                width: 34px;
+                                height: 34px;
+                                right: 30px;}
+
+.carrossel{
+                                width: 1000px;
+                                top: 25px;
+                                justify-content: center;
+                                text-align: center;
+                                align-items: center;
+                                left: 13%;}
+
+.carrossel img{
+                                border: 1px solid #000000;
+                                box-sizing: border-box;
+                                border-radius: 10px;
+                                width: 1000px;
+                                height: 550px;}
+
+p{
+                                font-size: 20px;
+                                position: absolute;
+                                top: 40px;}
+
+.quemsomos{
+                                position: relative;
+                                width: 100%;
+                                height: 800px;
+                                top: 30px;
+                                background: url(img/supermercado-saco-de-papel-cheio-de-comida-saudavel_79782-1632\ 2.png);}
+
+.quemsomos p{
+                                position: relative;
+                                width: 600px;
+                                padding-left: 30px;
+                                font-family: 'Ovo';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 30px;
+                                line-height: 54px;
+                                color: #000000;}
+
+.categorias{
+                                position: relative;
+                                width: 100%;
+                                height: 1000px;
+                                background: #EEEDEB;}
+
+.categorias p:nth-child(1){
+                                left: 40%;
+                                text-align: center;
+                                align-items: center;
+                                font-family: 'Open Sans Hebrew';
+                                font-style: normal;
+                                font-size: 60px;
+                                justify-content: center;
+                                color: #5CD133;}    
+
+.categorias a:nth-child(1){
+                                position: absolute;
+                                width: 20%;
+                                height: 300px;
+                                left: 10%;
+                                top: 174px;
+                                text-align: center;
+                                text-decoration: none;
+                                color: #000000;
+                                font-size: 30px;
+                                font-family: 'Times New Roman', Times, serif;
+                                padding-top: 10px;
+                                background: url(img/frutas.png),#EEEDEB;
+                                box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.25);
+                                border-radius: 60px;}    
+
+.categorias a:nth-child(2){
+                                position: absolute;
+                                text-align: center;
+                                text-decoration: none;
+                                color: #000000;
+                                font-size: 30px;
+                                padding-top: 10px;
+                                width: 20%;
+                                height: 308px;
+                                left: 41%;
+                                top: 174px;
+                                font-family: 'Times New Roman', Times, serif;
+                                justify-content: center;
+                                background: url(img/verdura.png), #EEEDEB;
+                                box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.25);
+                                border-radius: 50px;}    
+    
+.categorias a:nth-child(3){
+                                position: absolute;
+                                text-align: center;
+                                text-decoration: none;
+                                color: #000000;
+                                font-size: 30px;
+                                padding-top: 10px;
+                                font-family: 'Times New Roman', Times, serif;
+                                width: 20%;
+                                height: 308px;
+                                left: 72%;
+                                top: 174px;
+                                background: url(img/legumes.png), #EEEDEB;
+                                box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.25);
+                                border-radius: 50px;}
+
+.categorias h1{
+                                position: absolute;
+                                left: 40%;
+                                bottom: 30%;
+                                text-align: center;
+                                align-items: center;
+                                font-family: 'Open Sans Hebrew';
+                                font-style: normal;
+                                font-size: 60px;
+                                justify-content: center;
+                                color: #5CD133;}    
+.cards{
+                                flex-direction: column;
+                                display: block;}
+
+.card1{
+                                position: absolute;
+                                width: auto;
+                                height: 400px;
+                                left: 5%;
+                                top: 340vh;
+                                background: #FFFFFF;
+                                border: 1px solid #000000;
+                                box-sizing: border-box;
+                                border-radius: 40px;}
+
+.card1 img{
+                                position: relative;
+                                width: 70%;
+                                height: 150px;
+                                left: 15%;
+                                right: auto;
+                                top: 15px;}
+
+.card1 h1{
+                                position: relative;
+                                width: 183.85px;
+                                height: 37.38px;
+                                left: 10px;
+                                margin-top: 40px;
+                                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 23px;
+                                color: #000000;} 
+
+.card1 h6{
+                                position: relative;
+                                width: 329.93px;
+                                height: 37.38px;
+                                left: 10px;
+                                margin-top:10px;
+                                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 14px;
+                                color: rgba(0, 0, 0, 0.79);}
+
+.card1 p{
+                                position: relative;
+                                width: 329.93px;
+                                height: 37.38px;
+                                left: 10px;
+                                top: 1px;
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: rgba(0, 0, 0, 0.79);}
+
+.card1 a img{
+                                width: 60px;
+                                height: 60px;
+                                left: 35vh;
+                                margin-top: -10%;}
+
+.card2{
+                                position: absolute;
+                                width: auto;
+                                height: 400px;
+                                left: 37.5%;
+                                top: 340vh;
+                                background: #FFFFFF;
+                                border: 1px solid #000000;
+                                box-sizing: border-box;
+                                border-radius: 40px;}
+    
+.card2 img{
+                                position: relative;
+                                width: 70%;
+                                height: 150px;
+                                left: 15%;
+                                right: auto;
+                                top: 15px;}
+    
+.card2 h1{
+                                position: relative;
+                                width: 183.85px;
+                                height: 37.38px;
+                                left: 10px;
+                                margin-top: 40px;
+                                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 23px;
+                                color: #000000;} 
+    
+.card2 h6{
+                                position: relative;
+                                width: 329.93px;
+                                height: 37.38px;
+                                left: 10px;
+                                margin-top:10px;
+                                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 14px;
+                                color: rgba(0, 0, 0, 0.79);}
+    
+.card2 p{
+                                position: relative;
+                                width: 329.93px;
+                                height: 37.38px;
+                                left: 10px;
+                                top: 1px;
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: rgba(0, 0, 0, 0.79);}
+    
+    
+    
+.card2 a img{
+                                width: 60px;
+                                height: 60px;
+                                left: 35vh;
+                                margin-top: -10%;}
+
+.card3{
+                                position: absolute;
+                                width: auto;
+                                height: 400px;
+                                left: 70%;
+                                top: 340vh;
+                                background: #FFFFFF;
+                                border: 1px solid #000000;
+                                box-sizing: border-box;
+                                border-radius: 40px;}
+        
+.card3 img{
+                                position: relative;
+                                width: 70%;
+                                height: 150px;
+                                left: 15%;
+                                right: auto;
+                                top: 15px;}
+        
+.card3 h1{
+                                position: relative;
+                                width: 183.85px;
+                                height: 37.38px;
+                                left: 10px;
+                                margin-top: 40px;
+                                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 23px;
+                                color: #000000;} 
+        
+.card3 h6{
+                                position: relative;
+                                width: 329.93px;
+                                height: 37.38px;
+                                left: 10px;
+                                margin-top:10px;
+                                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 14px;
+                                color: rgba(0, 0, 0, 0.79);}
+        
+.card3 p{
+                                position: relative;
+                                width: 329.93px;
+                                height: 37.38px;
+                                left: 10px;
+                                top: 1px;
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: rgba(0, 0, 0, 0.79);}
+        
+.card3 a img{
+                                width: 60px;
+                                height: 60px;
+                                left: 35vh;
+                                margin-top: -10%;}
+
+.card4{
+                                position: absolute;
+                                width: auto;
+                                height: 400px;
+                                left: 70%;
+                                top: 420vh;
+                                background: #FFFFFF;
+                                border: 1px solid #000000;
+                                box-sizing: border-box;
+                                border-radius: 40px;
+                                flex-direction: column;
+                                display: flex;}
+            
+.card4 img{
+                                position: relative;
+                                width: 70%;
+                                height: 150px;
+                                left: 15%;
+                                right: auto;
+                                top: 15px;}
+            
+.card4 h1{
+                                position: relative;
+                                width: 183.85px;
+                                height: 37.38px;
+                                left: 10px;
+                                margin-top: 40px;
+                                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 23px;
+                                color: #000000;} 
+            
+.card4 h6{
+                                position: relative;
+                                width: 329.93px;
+                                height: 37.38px;
+                                left: 10px;
+                                margin-top:10px;
+                                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 14px;
+                                color: rgba(0, 0, 0, 0.79);}
+            
+.card4 p{
+                                position: relative;
+                                width: 329.93px;
+                                height: 37.38px;
+                                left: 10px;
+                                top: 1px;
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: rgba(0, 0, 0, 0.79);}
+            
+.card4 a img{
+                                width: 60px;
+                                height: 60px;
+                                left: 35vh;
+                                margin-top: -10%;}
+
+.card5{
+                                position: absolute;
+                                width: auto;
+                                height: 400px;
+                                left: 5%;
+                                top: 420vh;
+                                background: #FFFFFF;
+                                border: 1px solid #000000;
+                                box-sizing: border-box;
+                                border-radius: 40px;
+                                flex-direction: column;
+                                display: flex;}
+
+.card5 img{
+                                position: relative;
+                                width: 70%;
+                                height: 150px;
+                                left: 15%;
+                                right: auto;
+                                top: 15px;}
+                
+.card5 h1{
+                                position: relative;
+                                width: 183.85px;
+                                height: 37.38px;
+                                left: 10px;
+                                margin-top: 40px;
+                                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 23px;
+                                color: #000000;} 
+                
+.card5 h6{
+                                position: relative;
+                                width: 329.93px;
+                                height: 37.38px;
+                                left: 10px;
+                                margin-top:10px;
+                                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 14px;
+                                color: rgba(0, 0, 0, 0.79);}
+                
+.card5 p{
+                                position: relative;
+                                width: 329.93px;
+                                height: 37.38px;
+                                left: 10px;
+                                top: 1px;
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: rgba(0, 0, 0, 0.79);}
+                      
+.card5 a img{
+                                width: 60px;
+                                height: 60px;
+                                left: 35vh;
+                                margin-top: -10%;}
+
+.card6{
+                                position: absolute;
+                                width: auto;
+                                height: 400px;
+                                left: 37.5%;
+                                top: 420vh;
+                                background: #FFFFFF;
+                                border: 1px solid #000000;
+                                box-sizing: border-box;
+                                border-radius: 40px;
+                                flex-direction: column;
+                                display: flex;}
+    
+.card6 img{
+                                position: relative;
+                                width: 70%;
+                                height: 150px;
+                                left: 15%;
+                                right: auto;
+                                top: 15px;}
+                    
+.card6 h1{
+                                position: relative;
+                                width: 183.85px;
+                                height: 37.38px;
+                                left: 10px;
+                                margin-top: 40px;
+                                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 23px;
+                                color: #000000;} 
+                    
+.card6 h6{
+                                position: relative;
+                                width: 329.93px;
+                                height: 37.38px;
+                                left: 10px;
+                                margin-top:10px;
+                                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 14px;
+                                color: rgba(0, 0, 0, 0.79);}
+                    
+.card6 p{
+                                position: relative;
+                                width: 329.93px;
+                                height: 37.38px;
+                                left: 10px;
+                                top: 1px;
+                                font-family: 'Roboto';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: rgba(0, 0, 0, 0.79);}
+                    
+                    
+                    
+.card6 a img{
+                                width: 60px;
+                                height: 60px;
+                                left: 35vh;
+                                margin-top: -10%;}
+.endereco p{
+                                position: relative;
+                                text-align: center;
+                                width:100%;
+                                top: 100px;
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 30px;
+                                line-height: 72px;
+                                color: #FFFFFF;}
+
+.fundoendereco{
+                                position: absolute;
+                                width: 100%;
+                                height:auto;
+                                left: 0px;
+                                bottom: -510vh;
+                                background: #308314;}
+
+
+                        /*---------------------------------------------------------------------------------------------------*/                           
+
+
+iframe{
+                                position:relative;
+                                width:50%;
+                                height:400px;
+                                float:left;
+                                margin-top:-35%;
+                                left: 48%;}  
+                                
+#contato{
+                                position:absolute;
+                                width:100%;
+                                height:700px;
+                                bottom: -617vh;
+                                background: #EEEDEB;}
+
+#contato h1{
+                                font-family: 'Poor Story';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 64px;
+                                line-height: 80px;
+                                color: #308314;
+                                margin-left: 5%;} 
+
+.form{
+                                background-color: #FFF;
+                                border: #000000 1px solid;
+                                border-radius: 60px;
+                                margin-top: 40px;
+                                width: 500px;
+                                height: auto;
+                                margin-left: 100px;}
+
+input, textarea{
+                                border:2px solid #333;
+                                width:400px;
+                                height:auto;
+                                color:#333;
+                                font-size:16px;
+                                margin:10px;}
+                        
+textarea{                       height:200px;}
+
+.botao{
+                                width:100px;
+                                text-align: center;
+                                height:auto;
+                                background: #308314;
+                                border: 1px solid #000000;
+                                box-sizing: border-box;
+                                border-radius: 50px;
+                                color:#FFF;
+                                margin-left:40px;}
+#contato img{
+                                position: relative;
+                                width: 55%;
+                                height: 705px;
+                                left: 45%;
+                                top: -500px;
+                                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
+ 
+footer{
+                               
+                               
+                                position: absolute;
+                                width: 100%;
+                                height: 600px;
+                                top: 715vh;
+                                background: #27AE60;}
+
+footer p{
+                                text-align: center;
+                                font-family: 'Poor Story';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 35px;
+                                left: 5%;
+                                line-height: 50px;
+                                margin-top: 20%;
+                                color: #FFFFFF;}
